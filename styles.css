@@ -73,18 +73,18 @@ nav a[aria-current="page"] {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.92fr) minmax(320px, 1.08fr);
-  gap: 56px;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 1fr);
+  gap: 44px;
   align-items: center;
-  min-height: 68vh;
-  padding: 42px 0 72px;
+  min-height: 62vh;
+  padding: 34px 0 64px;
 }
 
 .hero h1 {
   margin: 0;
-  max-width: 720px;
-  font-size: clamp(3rem, 8vw, 6.8rem);
-  line-height: 0.94;
+  max-width: 640px;
+  font-size: clamp(2.9rem, 5.8vw, 5.4rem);
+  line-height: 0.98;
   letter-spacing: 0;
 }
 
@@ -98,7 +98,7 @@ nav a[aria-current="page"] {
 
 .hero p {
   max-width: 610px;
-  margin: 24px 0 0;
+  margin: 22px 0 0;
 }
 
 .actions {
@@ -106,7 +106,7 @@ nav a[aria-current="page"] {
   flex-wrap: wrap;
   align-items: center;
   gap: 18px;
-  margin-top: 34px;
+  margin-top: 30px;
 }
 
 .button {
@@ -137,7 +137,7 @@ nav a[aria-current="page"] {
 }
 
 .preview {
-  min-height: 420px;
+  min-height: clamp(300px, 34vw, 390px);
   display: grid;
   place-items: center;
 }

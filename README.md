@@ -1,9 +1,9 @@
-# Live Stream Wallpaper Site
+# Live Stream Screensaver Site
 
 Public GitHub Pages site for Live Stream Wallpaper.
 
 Custom domain:
 
 ```text
-livestreamwallpaper.xangma.com
+livestreamscreensaver.xangma.com
 ```
